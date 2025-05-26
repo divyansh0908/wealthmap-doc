@@ -8,7 +8,7 @@
 <p>WealthApp provides a comprehensive set of admin features for company management:</p>
 <h3 id="company-management">Company Management</h3>
 <ul>
-<li><strong>Company Registration</strong>: Users can register a company and automatically become the company admin</li>
+<li><strong>Company Registration</strong> Users can register a company and automatically become the company admin</li>
 <li><strong>Company Information Management</strong>: Company admins can view and update company details</li>
 <li><strong>Company Data Access Preferences</strong>: Company admins can set company-wide data access preferences</li>
 </ul>
