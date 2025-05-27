@@ -1,9 +1,113 @@
-﻿---
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WealthMap Full-Stack Application</title>
+</head>
+<body>
+  <h1>WealthMap Full-Stack Application</h1>
+  <p>
+    WealthMap is a full-stack application that helps users manage and visualize wealth-related data using maps and intuitive UI. The project is built using <strong>React 19</strong>, <strong>Vite</strong>, <strong>Tailwind CSS</strong>, and <strong>TanStack Router</strong> on the frontend, with a <strong>Node.js</strong>, <strong>Express</strong>, and <strong>MongoDB</strong> backend. It also supports features like Google Maps integration, JWT authentication, cloud storage, and scheduled tasks.
+  </p>
+
+  <hr />
+
+  <h2>Tech Stack</h2>
+
+  <h3>Frontend</h3>
+  <ul>
+    <li>React 19 with Vite</li>
+    <li>Tailwind CSS 4 + Tailwind Plugins</li>
+    <li>TanStack Router &amp; React Query</li>
+    <li>Radix UI + Lucide Icons</li>
+    <li>Google Maps API</li>
+    <li>React Hook Form</li>
+    <li>TypeScript</li>
+  </ul>
+
+  <h3>Backend</h3>
+  <ul>
+    <li>Node.js + Express</li>
+    <li>MongoDB (via Mongoose)</li>
+    <li>JWT Authentication</li>
+    <li>Google Cloud Storage</li>
+    <li>Nodemailer for Emails</li>
+    <li>MQTT + node-cron</li>
+  </ul>
+
+  <hr />
+
+  <h2>Project Structure</h2>
+  <pre><code>wealthmap
+  - frontend/ # React + Vite app
+  - backend/  # Node.js + Express server
+</code></pre>
+
+  <hr />
+
+  <h2>Getting Started</h2>
+
+  <h3>Prerequisites</h3>
+  <ul>
+    <li>Node.js v18+</li>
+    <li>Yarn or npm</li>
+    <li>MongoDB Atlas or Local instance</li>
+    <li>Google Cloud Project with Storage enabled</li>
+  </ul>
+
+  <hr />
+
+  <h2>Installation Instructions</h2>
+
+  <h3>1. Clone the Repository</h3>
+  <pre><code>git clone https://github.com/Aditys018/WealthApp.git
+cd WealthApp
+</code></pre>
+
+  <h3>Set Up Environment Variables</h3>
+
+  <strong>Backend .env</strong><br />
+  <p>Create a <code>.env</code> file inside the <code>backend/</code> folder:</p>
+  <pre><code>PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+GCLOUD_PROJECT=your_project_id
+GCLOUD_CLIENT_EMAIL=your_client_email
+GCLOUD_PRIVATE_KEY=your_private_key
+GCLOUD_BUCKET=your_bucket_name
+</code></pre>
+
+  <strong>Frontend .env</strong>
+  <pre><code>VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+</code></pre>
+
+  <h2>Running the app locally</h2>
+
+  <h3>Frontend</h3>
+  <pre><code>cd frontend
+yarn install
+yarn dev
+</code></pre>
+
+  <h3>Backend</h3>
+  <pre><code>cd backend
+yarn install
+yarn dev:server
+</code></pre>
+
+  <p>
+    For any queries or contributions, please reach out at
+    <a href="https://github.com/Aditys018/WealthApp" target="_blank">WealthApp</a>
+    or create a GitHub issue.
+  </p>
+</body>
+</html>
 
 
----
-
-<h1 id="wealthapp">WealthApp</h1>
 <h2 id="admin-features">Admin Features</h2>
 <p>WealthApp provides a comprehensive set of admin features for company management:</p>
 <h3 id="company-management">Company Management</h3>
