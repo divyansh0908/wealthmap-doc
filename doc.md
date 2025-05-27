@@ -1,4 +1,4 @@
----
+
 # WealthMap Full-Stack Application
 
 WealthMap is a full-stack application that helps users manage and visualize wealth-related data using maps and intuitive UI. The project is built using **React 19**, **Vite**, **Tailwind CSS**, and **TanStack Router** on the frontend, with a **Node.js**, **Express**, and **MongoDB** backend. It also supports features like Google Maps integration, JWT authentication, cloud storage, and scheduled tasks.
