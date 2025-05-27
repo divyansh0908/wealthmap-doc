@@ -1,9 +1,101 @@
 ---
+# WealthMap Full-Stack Application
+
+WealthMap is a full-stack application that helps users manage and visualize wealth-related data using maps and intuitive UI. The project is built using **React 19**, **Vite**, **Tailwind CSS**, and **TanStack Router** on the frontend, with a **Node.js**, **Express**, and **MongoDB** backend. It also supports features like Google Maps integration, JWT authentication, cloud storage, and scheduled tasks.
+
+---
+
+##  Tech Stack
+
+### Frontend
+
+- React 19 with Vite
+- Tailwind CSS 4 + Tailwind Plugins
+- TanStack Router & React Query
+- Radix UI + Lucide Icons
+- Google Maps API
+- React Hook Form
+- TypeScript
+
+### Backend
+
+- Node.js + Express
+- MongoDB (via Mongoose)
+- JWT Authentication
+- Google Cloud Storage
+- Nodemailer for Emails
+- MQTT + node-cron
+
+---
+
+## Project Structure
+
+wealthmap
+   - frontend/ # React + Vite app
+   - backend/ # Node.js + Express server
 
 
 ---
 
-<h1 id="wealthapp">WealthApp</h1>
+##  Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- Yarn or npm
+- MongoDB Atlas or Local instance
+- Google Cloud Project with Storage enabled
+
+---
+
+##  Installation Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Aditys018/WealthApp.git
+cd WealthApp
+```
+##  Set Up Environment Variables
+Backend .env
+Create a .env file inside the backend/ folder:
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+GCLOUD_PROJECT=your_project_id
+GCLOUD_CLIENT_EMAIL=your_client_email
+GCLOUD_PRIVATE_KEY=your_private_key
+GCLOUD_BUCKET=your_bucket_name
+```
+Frontend .env 
+
+```
+VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+
+```
+
+## Running the app locally
+
+# Frontend
+```
+cd frontend
+yarn install
+yarn dev
+```
+# Backend
+
+```
+cd backend
+yarn install
+yarn dev:server
+```
+For any queries or contributions, please reach out at [WealthApp](https://github.com/Aditys018/WealthApp) or create a GitHub issue.
+---
+
+
 <h2 id="admin-features">Admin Features</h2>
 <p>WealthApp provides a comprehensive set of admin features for company management:</p>
 <h3 id="company-management">Company Management</h3>
